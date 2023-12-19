@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+body{
+    background-color: #f3f3f3;
+}
+.lead{
+    font-size: 1rem;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+}
+.designation{
+    font-size: 1rem;
+}
+.landing-content{
+    /* background-color: palegreen; */
+    height: 100vh;
+}
+.border{
+    color: black !important;
+}
+.profile-icon{
+    height: 480px;
+    width: 480px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('https://th.bing.com/th/id/OIG.hSKc.XhLnL7SPxOdkRsU');
+    background-size: contain;
+}
+
+.nav-item:nth-child(1),.nav-item:nth-child(2){
+    border-right: 1px solid black;
+}
+.nav-link{
+    padding: 0;
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: black;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 1.4rem;
+    font-family: 'Roboto';
+}
+.intro-title{
+    font-family: 'Roboto' sans-serif;
+}
+.other-links{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+/* .other-links div:nth-child(1){
+
+}
+.other-links div:nth-child(2){
+    
+} */
+.other-links a{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.8s;
+    text-decoration: none;
+    color: black;
+}
+.other-links a:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.resume-link{
+    background-color: #eea304;
+}
+.projects-link{
+    background-color: #ff3b24;
+}
+.contact-link{
+    background-color: #80d8da;
+}
+
+
+
+
+.footer-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.social-icons img{
+    margin-right: 0.5rem;
+}
